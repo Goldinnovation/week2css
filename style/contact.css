@@ -1,0 +1,22 @@
+
+*{
+    background-color: rgba(52, 27, 27, 0.762);
+}
+
+
+.head-space{
+    display: flex;
+    justify-content: center;
+}
+
+.space-area{
+    border: 1px solid black; 
+    border-radius: 80%;
+    padding: 1%;
+
+}
+.middle-area{
+    background-color: rebeccapurple;
+    height: 500px;
+    margin-top: 30%;
+}
