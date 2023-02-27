@@ -3,12 +3,13 @@
     background-color: rgb(215, 215, 215);
 }
 
+
+
 .nav-area{
     background-color: green;
     display: flex;
     justify-content: space-around;
     min-height: 10%;
-    
 }
 
 .page-options{
@@ -37,7 +38,7 @@ li a{
 
 .content{
     display: flex;
-    background-color: blanchedalmond;
+    background-color: rgb(93, 82, 65);
     height: 300px;
     align-items: center;
     justify-content: center;
@@ -84,4 +85,26 @@ p{
 h1{
     background: none;
 }
+
+
+@media all and (max-width: 500px ){
+    .nav-area{
+        color: aliceblue;
+        background-color: black;
+        border-radius: 10px;
+        
+    }
+
+    *{
+        background-color: rgb(148, 203, 203);
+    }
+    .content {
+        background-image: linear-gradient(rgb(105, 47, 47),yellow);
+    }
+    .c-area{
+        border-radius: 30px;
+    }
+
+}
+
 

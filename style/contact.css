@@ -20,3 +20,19 @@
     height: 500px;
     margin-top: 30%;
 }
+
+@media all and (max-width: 30rem){
+    *{
+        background-color: rgb(234, 141, 28);
+
+    }
+
+    .head-space{
+        background-color: grey;
+        width: 27rem;
+        border-radius: 10px
+    }
+    .middle-area{
+        background-color: rgb(131, 192, 131);
+    }
+}
